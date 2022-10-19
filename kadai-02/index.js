@@ -10,16 +10,11 @@ console.log(fullName)
 const num = 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
 console.log(num)
 
-//sum = 0;
-//for(i=1; i<=10; i++){
-   // sum += i;
-//}
-//console.log(sum)
-
 //犬を飼っているかどうかの真偽値を格納する変数 dog と、猫を飼っているかどう
 //かの真偽値を格納する変数 cat を作成して値を格納する
 const dog = false
 const cat = true
+
 //「犬または猫を飼っている」場合の真偽値を計算して出力してみる
 //=> ヒント: OR 演算子(||) を利用する
 console.log("犬または猫を飼っている", dog || cat)
