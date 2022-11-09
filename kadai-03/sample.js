@@ -75,3 +75,13 @@ for (let i = 0; i <= 1000; i++) {
     
 }
 console.log(sum2)
+
+
+function hello () {
+    console.log('hello!')
+    console.log('hello!!')
+    console.log('hello!!!')
+}
+hello()
+
+setTimeout(() => { console.log('Hello!') }, 3000)
