@@ -6,3 +6,9 @@ const profile = {
 }
 console.log(profile.name)
 console.log(profile['name'])
+
+const obj = {
+    myKey: 456,
+    "my-key": 123,
+     
+}
