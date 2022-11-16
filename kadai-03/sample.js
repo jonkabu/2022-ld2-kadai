@@ -49,7 +49,7 @@ do {
 
 // if文の実習
 
-const score  = 90
+const score1  = 90
 if (score >= 90) {
     console.log('A')
 } else if(score >= 80){

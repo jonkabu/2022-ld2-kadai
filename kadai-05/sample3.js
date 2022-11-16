@@ -8,4 +8,4 @@ for (let index = 0; index < animals.length; index++) {
 
 for (const animal of animals) {
     console.log(animal)
-    
+}
