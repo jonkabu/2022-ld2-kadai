@@ -1,7 +1,7 @@
 // profile という名前のオブジェクトを作成し、nama、 age、 hobby、major というプロパティを作成する。値は好きに入れる
 const profile = {
     name: "伊能",
-    age: 78246287,
+    age: 278,
     hobby: "製図",
     major: "教育人間学",
 }
