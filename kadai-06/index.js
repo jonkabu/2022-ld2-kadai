@@ -4,12 +4,12 @@ const json = fs.readFileSync('./kadai-06/data.json').toString()
 
 let object
 try {
-    const object = JSON.parse(json)
+    object = JSON.parse(json)
 } catch (error) {
     console.log('不正なJSONフォーマットです')
     process.exit(1)
 }
 
 object.count = object.count + 1
-object.updateAt = new Data()
-fs.writeFilesync('./kadai-06/data.json',JSON.stringify(object))
+object.updateAt = Date()
+fs.writeFileSync('./kadai-06/data.json',JSON.stringify(object))
