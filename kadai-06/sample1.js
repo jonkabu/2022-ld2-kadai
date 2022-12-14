@@ -5,6 +5,7 @@ const a = {
     "sex": "male"
 }
     
-// JavaScript で JSON を扱う
 
    const jsonstring = '{ "species": "cat", "name": "Tama" }'
+
+   
