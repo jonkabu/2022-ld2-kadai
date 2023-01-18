@@ -25,3 +25,7 @@ class Cat extends Animal {
 const cat = new Cat()
 cat.speak()
 console.log(cat.energy)
+cat.eat()
+console.log(cat.energy)
+
+
